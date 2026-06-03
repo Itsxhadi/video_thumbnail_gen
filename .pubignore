@@ -1,0 +1,16 @@
+# Exclude the old original-namespace Java file (left from fork history)
+android/src/main/java/xyz/
+
+# Root screenshots / dev images
+video_file.png
+video_url.png
+
+# Build artifacts
+build/
+.dart_tool/
+
+# Example app iOS build artifacts (not needed in the package)
+example/ios/Flutter/ephemeral/
+example/ios/Pods/
+example/ios/Runner.xcworkspace/
+example/ios/Podfile.lock

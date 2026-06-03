@@ -1,0 +1,35 @@
+name: video_thumbnail_gen
+description: >
+  A production-grade Flutter plugin to generate video thumbnails on Android and iOS.
+  Supports JPEG, PNG, WebP, HEIC, batch extraction, metadata, and custom caching.
+version: 0.6.2
+homepage: https://github.com/Itsxhadi/video_thumbnail_gen
+repository: https://github.com/Itsxhadi/video_thumbnail_gen
+issue_tracker: https://github.com/Itsxhadi/video_thumbnail_gen/issues
+topics:
+  - video
+  - thumbnail
+  - media
+  - youtube
+  - video-thumbnail
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.itsxhadi.video_thumbnail
+        pluginClass: VideoThumbnailPlugin
+      ios:
+        pluginClass: VideoThumbnailPlugin
