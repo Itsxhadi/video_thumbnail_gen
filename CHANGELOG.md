@@ -1,3 +1,8 @@
+## 0.6.3 — 2026-06-09
+
+- Added PayPal donation button to README.md.
+- Added funding link to pubspec.yaml.
+
 ## 0.6.2 — 2026-06-03
 
 - Shortened package description in pubspec.yaml to fit within the 60-180 character limit required by pub.dev guidelines.

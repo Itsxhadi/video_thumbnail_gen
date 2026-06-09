@@ -12,6 +12,12 @@
   Easily convert <strong>video to image</strong>, extract <strong>YouTube video thumbnails</strong> natively, capture video frames, and read video metadata with high performance.
 </p>
 
+<p align="center">
+  <a href="https://www.paypal.com/donate/?hosted_button_id=VV3WVVCZDF6TC">
+    <img src="https://pics.paypal.com/00/s/M2M2MDJkODUtMmFiOS00OGFmLWE2MDQtMDgyYzQ2ZGNkMzc4/file.PNG" alt="Donate with PayPal button" height="35" />
+  </a>
+</p>
+
 ---
 
 ## 📸 Screenshots
@@ -62,7 +68,7 @@ This will add a line like this to your package's `pubspec.yaml` (and run an impl
 
 ```yaml
 dependencies:
-  video_thumbnail_gen: ^0.6.2
+  video_thumbnail_gen: ^0.6.3
 ```
 
 ---

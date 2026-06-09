@@ -3,7 +3,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'video_thumbnail_gen'
-  s.version          = '0.6.2'
+  s.version          = '0.6.3'
   s.summary          = 'Flutter plugin for generating video thumbnails on Android and iOS.'
   s.description      = <<-DESC
 A production-grade Flutter plugin for generating video thumbnails.
